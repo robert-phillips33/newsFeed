@@ -29,9 +29,11 @@ export const getSortedArticles = (articles, sortOption) => {
 };
 
 export const capitalizeCardTitle = (sentence) => {
+  
+  if (!sentence) return '';
   return sentence
     .split(" ")
-    .map((word) => word[0].toUpperCase() + word.substring(1))
+    .map((word) => word ? word[0].toUpperCase() + word.substring(1) : '') 
     .join(" ");
 };
 
@@ -63,7 +65,7 @@ export const handleMissingContent = (content) => {
   if (content) {
     return content;
   } else {
-    return "Sorry, error retrieving this story's content. Check the link below.";
+    return "Sorry, error retrieving this story's content.. Check the link below!";
   }
 };
 
@@ -71,6 +73,6 @@ export const handleMissingAuthor = (content) => {
   if (content) {
     return content;
   } else {
-    return "Author not provided";
+    return "Author not provided.";
   }
 };

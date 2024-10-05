@@ -135,7 +135,7 @@ const NewsViewMain = ({ articles }) => {
                   className='bg-muted flex scroll-m-20 
                   font-extrabold tracking-tighter 
                   text-left lg:text-3xl sm:text-2xl'
-                >{removeTextAfterHyphen(selectedArticle.title)}
+                >{removeTextAfterHyphen(capitalizeCardTitle(selectedArticle.title))}
                 </SheetTitle>
               </SheetHeader>
               <div className="">
@@ -144,7 +144,7 @@ const NewsViewMain = ({ articles }) => {
               </div>
               <SheetDescription>
                 <p className='text-left font-mono text-sm font-semibold mb-8'
-                >{handleMissingAuthor(selectedArticle?.author)}, {formatDate(selectedArticle.publishedAt)}
+                >Authored by {handleMissingAuthor(selectedArticle?.author)} <br></br> {formatDate(selectedArticle.publishedAt)}
                 </p>
                 {handleMissingContent(selectedArticle?.content)}
                 </SheetDescription>
