@@ -13,7 +13,7 @@
       "url": "https://www.example.com/article1",
       "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2024-10-01T14:21:43Z",
-      "content": "Sample content for article 1"
+      "content": "After a 162-game season that began back in March, we are again down to just a dozen teams in the hunt for a World Series title. October baseball officially begins today, with a quartet of Wild Card s…"
     },
     {
       "source": {
@@ -36,7 +36,7 @@
       "author": "Author 3",
       "title": "FEEEEFEEEE discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
       "description": "Sample description",
-      "url": "https://www.example.com/article3",
+      "url": "https://www.facebook.com",
       "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2024-10-03T14:21:43Z",
       "content": "Sample content for article 3"

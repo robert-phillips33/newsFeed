@@ -1,29 +1,28 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import NewsViewMain from './components/NewsViewMain';
-import NewsViewDetailed from './components/NewsViewDetailed';
 import MainLayout from './components/MainLayout';
-import mockData from '/src/assets/mockData.json';
 
 const App = () => {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    console.log(mockData.articles);
-    setArticles(mockData.articles);
+    fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`)
+      .then(response => response.json())
+      .then(data => {
+        const articlesWithID = data.articles.map((article, index) => ({
+          ...article,
+          id: index,
+        }));
+        setArticles(articlesWithID);
+      })
+      .catch(error => console.error('Error fetching data: ', error));
   }, []);
 
   return (
-    <>
-      <MainLayout>
-        <Routes>
-          <Route path='/' element={<NewsViewMain articles={articles} />} />
-          <Route path="news/:id" element={<NewsViewDetailed articles={articles} />} />
-        </Routes>
-      </MainLayout>
-    </>
+    <MainLayout>
+      <NewsViewMain articles={articles} />
+    </MainLayout>
   );
-}
+};
 
 export default App;
-
