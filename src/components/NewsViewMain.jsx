@@ -42,9 +42,6 @@ import {
   CardContent,
 } from '@/components/ui/card';
 
-// <----------------------------> <----------------------------> <----------------------------> <----------------------------> //
-// <----------------------------> <----------------------------> <----------------------------> <----------------------------> //
-
 const NewsViewMain = ({ articles }) => {
   const [articleSortOption, setArticleSortOption] = useState('');
   const [selectedArticle, setSelectedArticle] = useState(null);
