@@ -6,6 +6,7 @@ import {
   RadioGroup,
   RadioGroupItem
 } from '@/components/ui/radio-group';
+// import { ScrollArea, Scrollbar } from '@/components/ui/scroll-area';
 import {
   Card,
   CardHeader,
@@ -25,8 +26,8 @@ const NewsViewMain = ({ articles }) => {
   const sortedArticles = getSortedArticles(articles, articleSortOption);
 
   if (!articles.length) {
-    return <h2 
-    className='text-center font-extrabold
+    return <h2
+      className='text-center font-extrabold
     tracking-tighter text-6xl mt-2'
     >Loading articles...
     </h2>;
@@ -34,25 +35,31 @@ const NewsViewMain = ({ articles }) => {
 
   return (
     <section className="p-4">
-      <RadioGroup onValueChange={handleSortChange}>
-        <div className="flex items-center space-x-1">
-          <RadioGroupItem 
-          value="date-sorted" id="date-sorted" />
-          <Label htmlFor="date-sorted">Sort by date</Label>
-        </div>
-        <div className="flex items-center space-x-1">
-          <RadioGroupItem 
-          value="alphabetically-sorted" id="alphabetically-sorted" />
-          <Label htmlFor="alphabetically-sorted">Sort alphabetically</Label>
-        </div>
-      </RadioGroup>
+      <div className='flex justify-center space-x-4'>
+        <RadioGroup className='flex space-x-3 mb-4 mt-2'
+          onValueChange={handleSortChange}>
+          <div className="flex items-center space-x-1">
+            <RadioGroupItem
+              value="date-sorted" id="date-sorted" />
+            <Label className='font-mono text-med font-bold'
+              htmlFor="date-sorted">sort by date</Label>
+          </div>
+          <div className="flex items-center space-x-1">
+            <RadioGroupItem
+              value="alphabetically-sorted" id="alphabetically-sorted" />
+            <Label className='font-mono text-med font-bold'
+              htmlFor="alphabetically-sorted">sort alphabetically</Label>
+          </div>
+        </RadioGroup>
+      </div>
 
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+      <div className="mt-4 grid text-center grid-cols-1
+       md:grid-cols-2 lg:grid-cols-3 gap-6 hover-mute">
         {sortedArticles.map((article) => (
           <Card key={article.url}>
             <CardHeader>
-              <CardTitle>{article.title}</CardTitle>
+              <CardTitle className='max-w-[36ch] break-words relative rounded bg-muted px-0.6rem text-center py-[0.8rem]'>{article.title.toUpperCase()}</CardTitle>
               <CardDescription>{article.description}</CardDescription>
             </CardHeader>
             <CardContent>

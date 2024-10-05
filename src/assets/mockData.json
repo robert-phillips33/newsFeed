@@ -11,7 +11,7 @@
       "title": "AB discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
       "description": "Sample description",
       "url": "https://www.example.com/article1",
-      "urlToImage": "https://www.example.com/image1.jpg",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2024-10-01T14:21:43Z",
       "content": "Sample content for article 1"
     },
@@ -24,7 +24,7 @@
       "title": "Sample Title 2",
       "description": "BABA discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
       "url": "https://www.example.com/article2",
-      "urlToImage": "https://www.example.com/image2.jpg",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2024-10-02T14:21:43Z",
       "content": "Sample content for article 2"
     },
@@ -37,7 +37,7 @@
       "title": "FEEEEFEEEE discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
       "description": "Sample description",
       "url": "https://www.example.com/article3",
-      "urlToImage": "https://www.example.com/image3.jpg",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2024-10-03T14:21:43Z",
       "content": "Sample content for article 3"
     },
@@ -50,7 +50,7 @@
       "title": "Sample Title 4",
       "description": "Sample description",
       "url": "https://www.example.com/article4",
-      "urlToImage": "https://www.example.com/image4.jpg",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
       "publishedAt": "2024-10-04T14:21:43Z",
       "content": "Sample content for article 4"
     },
