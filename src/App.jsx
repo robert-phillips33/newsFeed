@@ -4,7 +4,7 @@ import MainLayout from './components/MainLayout';
 
 const App = () => {
   const [articles, setArticles] = useState([]);
-
+  
   useEffect(() => {
     fetch(`https://newsapi.org/v2/top-headlines?country=us&pageSize=30&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`)
       .then(response => {

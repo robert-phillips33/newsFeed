@@ -46,7 +46,7 @@ const NewsViewMain = ({ articles }) => {
   const [articleSortOption, setArticleSortOption] = useState('');
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [isSheetOpen, setIsSheetOpen] = useState(false);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // this will be used once we add this into motorCityKitties -> keep it for now.
 
   const handleSortChange = (value) => {
     setArticleSortOption(value);
