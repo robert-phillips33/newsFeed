@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 20,
+  "articles": [
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 1",
+      "title": "AB discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
+      "description": "Sample description",
+      "url": "https://www.example.com/article1",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-10-01T14:21:43Z",
+      "content": "Sample content for article 1"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 2",
+      "title": "Sample Title 2",
+      "description": "BABA discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
+      "url": "https://www.example.com/article2",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-10-02T14:21:43Z",
+      "content": "Sample content for article 2"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Author 3",
+      "title": "FEEEEFEEEE discusses strikes on Iran oil sites as Israel presses Lebanon offensive - Reuters",
+      "description": "Sample description",
+      "url": "https://www.example.com/article3",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-10-03T14:21:43Z",
+      "content": "Sample content for article 3"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 4",
+      "title": "Sample Title 4",
+      "description": "Sample description",
+      "url": "https://www.example.com/article4",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1446775028.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-10-04T14:21:43Z",
+      "content": "Sample content for article 4"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Author 5",
+      "title": "Sample Title 5",
+      "description": "Sample description",
+      "url": "https://www.example.com/article5",
+      "urlToImage": "https://www.example.com/image5.jpg",
+      "publishedAt": "2024-10-05T14:21:43Z",
+      "content": "Sample content for article 5"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 6",
+      "title": "Sample Title 6",
+      "description": "Sample description",
+      "url": "https://www.example.com/article6",
+      "urlToImage": "https://www.example.com/image6.jpg",
+      "publishedAt": "2024-10-06T14:21:43Z",
+      "content": "Sample content for article 6"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 7",
+      "title": "Sample Title 7",
+      "description": "Sample description",
+      "url": "https://www.example.com/article7",
+      "urlToImage": "https://www.example.com/image7.jpg",
+      "publishedAt": "2024-10-07T14:21:43Z",
+      "content": "Sample content for article 7"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 8",
+      "title": "Sample Title 8",
+      "description": "Sample description",
+      "url": "https://www.example.com/article8",
+      "urlToImage": "https://www.example.com/image8.jpg",
+      "publishedAt": "2024-10-08T14:21:43Z",
+      "content": "Sample content for article 8"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 9",
+      "title": "Sample Title 9",
+      "description": "Sample description",
+      "url": "https://www.example.com/article9",
+      "urlToImage": "https://www.example.com/image9.jpg",
+      "publishedAt": "2024-10-09T14:21:43Z",
+      "content": "Sample content for article 9"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 10",
+      "title": "Sample Title 10",
+      "description": "Sample description",
+      "url": "https://www.example.com/article10",
+      "urlToImage": "https://www.example.com/image10.jpg",
+      "publishedAt": "2024-10-10T14:21:43Z",
+      "content": "Sample content for article 10"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 11",
+      "title": "Sample Title 11",
+      "description": "Sample description",
+      "url": "https://www.example.com/article11",
+      "urlToImage": "https://www.example.com/image11.jpg",
+      "publishedAt": "2024-10-11T14:21:43Z",
+      "content": "Sample content for article 11"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 12",
+      "title": "Sample Title 12",
+      "description": "Sample description",
+      "url": "https://www.example.com/article12",
+      "urlToImage": "https://www.example.com/image12.jpg",
+      "publishedAt": "2024-10-12T14:21:43Z",
+      "content": "Sample content for article 12"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 13",
+      "title": "Sample Title 13",
+      "description": "Sample description",
+      "url": "https://www.example.com/article13",
+      "urlToImage": "https://www.example.com/image13.jpg",
+      "publishedAt": "2024-10-13T14:21:43Z",
+      "content": "Sample content for article 13"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 14",
+      "title": "Sample Title 14",
+      "description": "Sample description",
+      "url": "https://www.example.com/article14",
+      "urlToImage": "https://www.example.com/image14.jpg",
+      "publishedAt": "2024-10-14T14:21:43Z",
+      "content": "Sample content for article 14"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 15",
+      "title": "Sample Title 15",
+      "description": "Sample description",
+      "url": "https://www.example.com/article15",
+      "urlToImage": "https://www.example.com/image15.jpg",
+      "publishedAt": "2024-10-15T14:21:43Z",
+      "content": "Sample content for article 15"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 16",
+      "title": "Sample Title 16",
+      "description": "Sample description",
+      "url": "https://www.example.com/article16",
+      "urlToImage": "https://www.example.com/image16.jpg",
+      "publishedAt": "2024-10-16T14:21:43Z",
+      "content": "Sample content for article 16"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 17",
+      "title": "Sample Title 17",
+      "description": "Sample description",
+      "url": "https://www.example.com/article17",
+      "urlToImage": "https://www.example.com/image17.jpg",
+      "publishedAt": "2024-10-17T14:21:43Z",
+      "content": "Sample content for article 17"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 18",
+      "title": "Sample Title 18",
+      "description": "Sample description",
+      "url": "https://www.example.com/article18",
+      "urlToImage": "https://www.example.com/image18.jpg",
+      "publishedAt": "2024-10-18T14:21:43Z",
+      "content": "Sample content for article 18"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 19",
+      "title": "Sample Title 19",
+      "description": "Sample description",
+      "url": "https://www.example.com/article19",
+      "urlToImage": "https://www.example.com/image19.jpg",
+      "publishedAt": "2024-10-19T14:21:43Z",
+      "content": "Sample content for article 19"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Author 20",
+      "title": "Sample Title 20",
+      "description": "The former first lady says she is a longtime supporter of abortion rights. Her memoir is coming out a year after former President Donald Trump said he was able to kill Roe v. Wade.",
+      "url": "https://www.example.com/article20",
+      "urlToImage": "https://www.example.com/image20.jpg",
+      "publishedAt": "2024-10-20T14:21:43Z",
+      "content": "Sample content for article 20"
+    }
+  ]
+}
