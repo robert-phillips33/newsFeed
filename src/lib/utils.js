@@ -23,3 +23,10 @@ export const getSortedArticles = (articles, sortOption) => {
   }
   return articles;
 };
+
+export const capitalizeCardTitle = (sentence) => {
+  return sentence
+    .split(" ")
+    .map((word) => word[0].toUpperCase() + word.substring(1))
+    .join(" ");
+};
