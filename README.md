@@ -19,7 +19,7 @@ A lightweight, mobile / desktop friendly news-display application that gives its
 - Run `npm run dev` from the command line to begin running the application
 - Create a .Env file within the root of your directory
 - Assign `VITE_API_KEY=` to your API key, it should look similar to the example below..
-- `VITE_API_KEY=057ec7fF0e56e454ba64940b3e292d0d7`
+- `VITE_API_KEY=0000000000000000000000000000000000`
 - Look at your command line to find `Local: http://localhost:5173/`
 - Copy and paste `http://localhost:5173/` into your broswer!
 - You're all set!
